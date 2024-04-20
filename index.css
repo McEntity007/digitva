@@ -202,7 +202,7 @@
 
  
   #space{
-    height: 10vh;
+    height: calc(10vh + 1rem);
   }
   
  
