@@ -75,6 +75,7 @@
 
 
   section{
+    padding-top: calc(8vh + 3rem);
     padding-left: 5%;
     padding-right: 5%;
     margin-right: 5%;

@@ -1,0 +1,196 @@
+/* Common styles for all screen sizes */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .fixed-header {
+    height: calc(8vh + 2rem);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  .logo-title a {
+    display: flex;
+    align-items: center;
+    padding-left: 90px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .logo-title img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .logo-title h1 {
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+  }
+  
+  nav {
+    display: flex;
+    padding-right: 90px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 0.5rem 1rem;
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    background-color: #eee;
+    border-radius: 10px;
+    color: gray;
+  }
+  
+  /* Section styling */
+  section {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #text_1 h2 {
+    width: 100%;
+    font-family: "Manrope", sans-serif;
+    font-size: 3.8cap;
+    font-weight: 900;
+  }
+  
+  #text_1 p {
+    line-height: 1.5;
+    font-family: "Manrope", sans-serif;
+    text-align: left;
+    font-size: 8mm;
+  }
+  
+  #text_1 a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #text_1 button {
+    margin-top: 20px;
+    width: 200px; /* Adjust button width as needed */
+    height: 50px; /* Adjust button height as needed */
+    border-radius: 10px;
+    font-family: "Manrope", sans-serif;
+    font-size: 2cap;
+    font-weight: 700;
+    background-color: #fff;
+    text-decoration: none;
+  }
+  
+  #text_1 button:hover {
+    font-size: 2.2cap;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+  .content img {
+    width: 80%; /* Adjust image width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .discription {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .discription h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-family: "Manrope", sans-serif;
+    font-size: 5cap;
+    font-weight: 900;
+  }
+  
+  .discription p {
+    line-height: 1.5;
+    font-family: "Manrope", sans-serif;
+    text-align: left;
+    font-size: 8mm;
+  }
+  
+  footer {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+    width: 100%;
+    background-color: #000;
+    color: white;
+  }
+  
+  #cpr {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .container {
+      padding: 0.5rem;
+    }
+  
+    .logo-title a {
+      padding-left: 20px;
+    }
+  
+    nav {
+      padding-right: 20px;
+    }
+  
+    #text_1 button {
+      width: 150px;
+      height: 40px;
+      font-size: 1.5cap;
+    }
+  
+    .content img {
+      width: 90%;
+    }
+  }
+  
