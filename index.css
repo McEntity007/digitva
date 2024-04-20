@@ -18,7 +18,7 @@
   
   
   .fixed-header {
-    height: 10vh;
+    height: calc(8vh+2rem);
     position: fixed;
     top: 0;
     left: 0;
@@ -251,7 +251,7 @@
 
 
   
-  #futer {
+  footer {
     margin: 0;
     padding: 0;
     height: 50vh;
