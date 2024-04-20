@@ -5,16 +5,6 @@
     /* hello world */
   }
   
-  /* body{
-    
-    padding: 5%;
-    margin: 5%;
-   
-    right: 0;
-    bottom: 0;
-  } */
-
-  
   
   
   .fixed-header {
@@ -113,13 +103,7 @@
 
 
   .content {
-    /* padding-top: 13%; */
-    /* top: 0;
-    bottom: 0; */
-    /* padding-left: 10%; */
-    /* padding-right: 10%; */
     height: 100vh;
-    /* margin-bottom: 2rem; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -252,17 +236,18 @@
 
   
   footer {
+    position: relative;
     margin: 0;
     padding: 0;
     height: 50vh;
     width: 100%;
     background-color: #000;
- 
     color: white;
 
   }
 
   #cpr{
+    position: absolute;
     bottom: 0;
     text-align: center;
     width: 100%;
