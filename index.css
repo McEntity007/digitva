@@ -44,6 +44,7 @@
   .logo-title h1 {
     margin: 0;
     font-family: "Manrope", sans-serif;
+    font-weight: 900;
   }
   
   nav {
@@ -78,14 +79,38 @@
   
   /* Adjust styles for different screen sizes */
   
-  @media only screen and (max-width: 768px) {
-    .logo-title h1 {
-      font-size: 1rem;
-    }
-    nav li {
-      margin-right: 0.5rem;
-    }
+  /* Add a media query for smaller screens */
+@media only screen and (max-width: 850px) {
+  .container {
+    flex-direction: column; /* Change flex direction to stack items vertically */
+    padding: 0.5rem; /* Reduce padding for smaller screens */
   }
+
+  .logo-title {
+    padding-left: 0; /* Remove left padding for logo */
+    margin-bottom: 1rem; /* Add margin at the bottom for spacing */
+    text-align: center; /* Center-align the logo */
+  }
+
+  .logo-title h1 {
+    font-size: 1.5rem; /* Decrease font size for smaller screens */
+  }
+
+  nav {
+    padding-right: 0; /* Remove right padding for navigation */
+    justify-content: center; /* Center-align the navigation links */
+  }
+
+  nav ul {
+    flex-direction: column; /* Stack navigation links vertically */
+    align-items: center; /* Center-align the navigation links */
+  }
+
+  nav li {
+    margin: 0.5rem 0; /* Add margin between navigation links */
+  }
+}
+
 
 
   /* article{
@@ -212,6 +237,62 @@
     text-align: left;
     font-size: 8mm;
   }
+
+
+  /* Adjust styles for different screen sizes */
+  
+  /* Add a media query for smaller screens */
+
+  /* Add a media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  section {
+    padding-top: 8rem; /* Adjust padding for smaller screens */
+  }
+
+  .content {
+    flex-direction: column; /* Stack content vertically on smaller screens */
+    align-items: center; /* Center-align content */
+  }
+
+  #text_1 {
+    text-align: center; /* Center-align text */
+  }
+
+  #text_1 h2 {
+    font-size: 2rem; /* Decrease font size for smaller screens */
+  }
+
+  #text_1 p {
+    font-size: 1rem; /* Decrease font size for smaller screens */
+  }
+
+  #text_1 button {
+    width: 80%; /* Adjust button width for smaller screens */
+    font-size: 1.2rem; /* Decrease font size for smaller screens */
+  }
+
+  .content img {
+    width: 100%; /* Adjust image width to fit smaller screens */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 1rem; /* Add margin at the top for spacing */
+  }
+
+  #space {
+    display: none; /* Hide space div on smaller screens */
+  }
+
+  .discription {
+    height: auto; /* Remove fixed height for smaller screens */
+  }
+
+  .discription h4 {
+    font-size: 1.2rem; /* Decrease font size for smaller screens */
+  }
+
+  .discription p {
+    font-size: 0.8rem; /* Decrease font size for smaller screens */
+  }
+}
 
 
 
