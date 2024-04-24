@@ -248,15 +248,16 @@
   /* Add a media query for smaller screens */
 
   /* Add a media query for smaller screens */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 850px) {
   section {
     padding-top: 8rem; /* Adjust padding for smaller screens */
   }
 
   .content {
+    height: 80vh;
     flex-direction: column; /* Stack content vertically on smaller screens */
     align-items: center; /* Center-align content */
-    justify-content: space-evenly;
+    justify-content: center;
   }
 
   #text_1 {
