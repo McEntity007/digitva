@@ -86,6 +86,10 @@
     padding: 0.5rem; /* Reduce padding for smaller screens */
   }
 
+  .logo-title a{
+    padding-left: 0;
+  }
+
   .logo-title {
     padding-left: 0; /* Remove left padding for logo */
     margin-bottom: 1rem; /* Add margin at the bottom for spacing */
@@ -252,6 +256,7 @@
   .content {
     flex-direction: column; /* Stack content vertically on smaller screens */
     align-items: center; /* Center-align content */
+    justify-content: space-evenly;
   }
 
   #text_1 {
