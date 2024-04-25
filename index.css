@@ -253,7 +253,7 @@
   /* Add a media query for smaller screens */
 @media only screen and (max-width: 850px) {
   section {
-    padding-top: 5rem; /* Adjust padding for smaller screens */
+    padding-top: 4.5rem; /* Adjust padding for smaller screens */
   }
 
   .content {
