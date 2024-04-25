@@ -165,7 +165,7 @@
     line-height: 1.5;
     font-family: "Manrope", sans-serif;
     text-align: left;
-    font-size: 8mm;
+    font-size: 7mm;
 
     
     
@@ -224,6 +224,10 @@
  
 
   .discription{
+    /* background-image: url(Yin_Yang_gray.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%; */
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -333,18 +337,211 @@
     width: 100%;
     background-color: #000;
     color: white;
+    display: flex;
+    flex-direction: column;
+    
 
   }
 
+  #ftr_upr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between  ;
+    padding: 2%;
+  }
+
+  
+  #ftr_log{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+  }
+
+  #ftr_log img{
+    
+    align-items: center;
+    width: 35%;
+
+  }
+
+  #ftr_log h1{
+    font-weight: 900;
+    font-size: 20mm;
+    
+    /* text-align: center; */
+  }
+
+  #ftr_log p{
+    text-align: center;
+  } 
+
+  #ftr_cnt{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+  }
+
+  #con_ico {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: ; */
+    color: white;
+    font-size: 3rem;
+    text-decoration: none;
+  }
+
+  #con_ico a i{
+    color: white;
+  }
+
+  /* #con_scr form{
+    margin-top: 1rem; 
+    width: 100%;
+    text-align: center;
+  } */
+
+  #con_scr {
+    text-align: center; /* Center the contents horizontally */
+  }
+  
+  #con_scr form {
+    display: inline-block; /* Ensure form elements are displayed in line */
+  }
+  
+  #con_scr input[type="email"] {
+    padding: 10px; /* Adjust padding as needed */
+    margin-right: 10px; /* Add margin between input and button */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+  }
+  
+  #con_scr button {
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #007bff; /* Change button background color */
+    color: #fff; /* Change button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Add pointer cursor */
+  }
+  
+  #con_scr button:hover {
+    background-color: #0056b3; /* Change button background color on hover */
+  }
+
+  #con_scr p{
+    margin-top: 1rem;
+    font-size: 6mm;
+  }
+ 
   #cpr{
     position: absolute;
     bottom: 0;
     text-align: center;
     width: 100%;
     bottom: 0;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     
   }
 
- 
+
+  /* footer adjustable */
+
+  @media screen and (max-width: 850px) {
+   /* Common styles for footer */
+footer {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Upper part of footer */
+#ftr_upr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2% 5%; /* Adjust padding */
+}
+
+#ftr_log img {
+  width: 80px; /* Adjust logo size */
+}
+
+#ftr_log h1 {
+  font-size: 20px; /* Adjust heading size */
+}
+
+/* Container for icons and form */
+#ftr_cnt {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2% 5%; /* Adjust padding */
+}
+
+/* Icons container */
+#con_ico {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem; /* Add some space between icons and form */
+}
+
+/* Social media icons */
+#con_ico i {
+  font-size: 2rem;
+  margin: 0 10px; /* Adjust margin */
+}
+
+/* Form container */
+#con_scr {
+  text-align: center;
+}
+
+/* Email input */
+#con_scr input[type="email"] {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: calc(100% - 140px); /* Adjust width */
+}
+
+/* Subscribe button */
+#con_scr button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#con_scr button:hover {
+  background-color: #0056b3;
+}
+
+/* Description text */
+#con_scr p {
+  margin-top: 1rem;
+  font-size: 14px; /* Adjust font size */
+}
+
+/* Copyright text */
+#cpr {
+  text-align: center;
+  padding: 10px 0;
+}
+
+  }
