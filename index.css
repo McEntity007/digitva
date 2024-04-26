@@ -79,13 +79,13 @@
     color: gray;
   }
   
-  /* Adjust styles for different screen sizes */
+  /* Adjusting styles for different screen sizes */
   
-  /* Add a media query for smaller screens */
+  /* media query for smaller screens */
 @media only screen and (max-width: 850px) {
   .container {
-    flex-direction: column; /* Change flex direction to stack items vertically */
-    padding: 0.5rem; /* Reduce padding for smaller screens */
+    flex-direction: column; 
+    padding: 0.5rem; 
     margin: 0;
   }
 
@@ -94,27 +94,27 @@
   }
 
   .logo-title {
-    padding-left: 0; /* Remove left padding for logo */
-    margin-bottom: 1rem; /* Add margin at the bottom for spacing */
-    text-align: center; /* Center-align the logo */
+    padding-left: 0; 
+    margin-bottom: 1rem; 
+    text-align: center; 
   }
 
   .logo-title h1 {
-    font-size: 1.5rem; /* Decrease font size for smaller screens */
+    font-size: 1.5rem; 
   }
 
   nav {
-    padding-right: 0; /* Remove right padding for navigation */
-    justify-content: center; /* Center-align the navigation links */
+    padding-right: 0;
+    justify-content: center; 
   }
 
   nav ul {
-    flex-direction: column; /* Stack navigation links vertically */
-    align-items: center; /* Center-align the navigation links */
+    flex-direction: column; 
+    align-items: center; 
   }
 
   nav li {
-    margin: 0.5rem 0; /* Add margin between navigation links */
+    margin: 0.5rem 0; 
   }
 }
 
@@ -250,60 +250,59 @@
   }
 
 
-  /* Adjust styles for different screen sizes */
+  /* Adjusting styles for different screen sizes */
   
-  /* Add a media query for smaller screens */
+  /* media query for smaller screens */
 
-  /* Add a media query for smaller screens */
 @media only screen and (max-width: 850px) {
   section {
-    padding-top: 4.5rem; /* Adjust padding for smaller screens */
+    padding-top: 4.5rem; 
   }
 
   .content {
     height: 80vh;
-    flex-direction: column; /* Stack content vertically on smaller screens */
-    align-items: center; /* Center-align content */
+    flex-direction: column; 
+    align-items: center; 
     justify-content: center;
   }
 
   #text_1 {
-    text-align: center; /* Center-align text */
+    text-align: center; 
   }
 
   #text_1 h2 {
-    font-size: 2rem; /* Decrease font size for smaller screens */
+    font-size: 2rem; 
   }
 
   #text_1 p {
-    font-size: 1rem; /* Decrease font size for smaller screens */
+    font-size: 1rem; 
   }
 
   #text_1 button {
-    width: 80%; /* Adjust button width for smaller screens */
-    font-size: 1.2rem; /* Decrease font size for smaller screens */
+    width: 80%; 
+    font-size: 1.2rem; 
   }
 
   .content img {
-    width: 100%; /* Adjust image width to fit smaller screens */
-    height: auto; /* Maintain aspect ratio */
-    margin-top: 1rem; /* Add margin at the top for spacing */
+    width: 100%; 
+    height: auto; 
+    margin-top: 1rem; 
   }
 
   #space {
-    display: none; /* Hide space div on smaller screens */
+    display: none; 
   }
 
   .discription {
-    height: auto; /* Remove fixed height for smaller screens */
+    height: auto; 
   }
 
   .discription h4 {
-    font-size: 1.2rem; /* Decrease font size for smaller screens */
+    font-size: 1.2rem; 
   }
 
   .discription p {
-    font-size: 0.8rem; /* Decrease font size for smaller screens */
+    font-size: 0.8rem; 
   }
 }
 
@@ -407,31 +406,31 @@
   } */
 
   #con_scr {
-    text-align: center; /* Center the contents horizontally */
+    text-align: center; 
   }
   
   #con_scr form {
-    display: inline-block; /* Ensure form elements are displayed in line */
+    display: inline-block; 
   }
   
   #con_scr input[type="email"] {
-    padding: 10px; /* Adjust padding as needed */
-    margin-right: 10px; /* Add margin between input and button */
-    border: 1px solid #ccc; /* Add border */
-    border-radius: 5px; /* Add border radius */
+    padding: 10px; 
+    margin-right: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;  
   }
   
   #con_scr button {
-    padding: 10px 20px; /* Adjust padding as needed */
-    background-color: #007bff; /* Change button background color */
-    color: #fff; /* Change button text color */
-    border: none; /* Remove button border */
-    border-radius: 5px; /* Add border radius */
-    cursor: pointer; /* Add pointer cursor */
+    padding: 10px 20px; 
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
   }
   
   #con_scr button:hover {
-    background-color: #0056b3; /* Change button background color on hover */
+    background-color: #0056b3; 
   }
 
   #con_scr p{
@@ -471,15 +470,15 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2% 5%; /* Adjust padding */
+  padding: 2% 5%; 
 }
 
 #ftr_log img {
-  width: 80px; /* Adjust logo size */
+  width: 80px; 
 }
 
 #ftr_log h1 {
-  font-size: 20px; /* Adjust heading size */
+  font-size: 20px;
 }
 
 /* Container for icons and form */
@@ -488,20 +487,20 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2% 5%; /* Adjust padding */
+  padding: 2% 5%; 
 }
 
 /* Icons container */
 #con_ico {
   display: flex;
   justify-content: center;
-  margin-bottom: 1rem; /* Add some space between icons and form */
+  margin-bottom: 1rem; 
 }
 
 /* Social media icons */
 #con_ico i {
   font-size: 2rem;
-  margin: 0 10px; /* Adjust margin */
+  margin: 0 10px; 
 }
 
 /* Form container */
@@ -515,7 +514,7 @@ footer {
   margin-right: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  width: calc(100% - 140px); /* Adjust width */
+  width: calc(100% - 140px); 
 }
 
 /* Subscribe button */
@@ -535,7 +534,7 @@ footer {
 /* Description text */
 #con_scr p {
   margin-top: 1rem;
-  font-size: 14px; /* Adjust font size */
+  font-size: 14px; 
 }
 
 /* Copyright text */
